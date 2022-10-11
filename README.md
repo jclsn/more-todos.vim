@@ -9,7 +9,7 @@ Adds more words to the Todo highlight group.
 Add the following to your .vimrc to extend the todo highlight group by the word "notes":
 
 ```vimscript
-let g:todoKeywords = [
+let todoKeywords = [
             \ "notes",
             \ ]
 ```

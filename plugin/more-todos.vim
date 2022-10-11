@@ -4,9 +4,9 @@
 " Description   :
 
 
-let todoKeywords = [
-			\ "NOTE",
-			\ "NOTES",
+let s:todoKeywords = [
+			\ "TODO",
+			\ "FIXME",
 			\ ]
 
 function! UpdateTodoKeywords(...)
